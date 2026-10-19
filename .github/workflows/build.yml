@@ -15,7 +15,7 @@ jobs:
 
       - name: Use LLVM 19
         shell: pwsh
-        run: choco install llvm --version=19.1.7 --allow-downgrade -y
+        run: choco install llvm --version=20.1.8 --allow-downgrade -y
 
       - name: Build the mod
         uses: geode-sdk/build-geode-mod@main
